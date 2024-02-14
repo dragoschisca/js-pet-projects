@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    max-width: 800px;
+    align-items: center;
+    margin: 0 auto;
+    padding: 36px;
+}
+
+.container p{
+    font-size: 18px;
+    margin: 16px 0;
+}
+
+.image{
+    width: 100%;
+    height: 100%;
+    margin-bottom: 16px;
+}
+
+.countdown{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    text-align: center;
+    font-size: 16px;
+    color: #ffffff;
+    min-width: 320px;
+}
+
+.countdown-item{
+    background-color: rgb(109, 109, 196);
+    padding: 6px;
+    min-width: 65px;
+}
+
+.expired{
+    color: #222;
+    margin: 0 auto;
+}
